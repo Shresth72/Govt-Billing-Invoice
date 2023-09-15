@@ -25,8 +25,11 @@ This mobile application prototype is built using React Native and Expo Go, desig
 ### Video Presentation of this prototype
 #### Link: https://drive.google.com/file/d/1Du29KBUjt77_HPsZ8gx7kirqAC4cpdyy/view?usp=drivesdk
 
-## What is an Invoice App?
+<img src="https://github.com/Shresth72/Govt-Billing-Invoice/assets/97455610/ca11dc7f-be1d-44a3-9121-5a1741698096" alt="drawing" width="200"/>
+<img src="https://github.com/Shresth72/Govt-Billing-Invoice/assets/97455610/12752bc5-a3a0-4293-a7f1-a515adfcbb2f" alt="drawing" width="200"/>
+<img src="https://github.com/Shresth72/Govt-Billing-Invoice/assets/97455610/a989a910-8414-469f-a784-c19f7381b2b3" alt="drawing" width="200"/>
 
+## What is an Invoice App?
 An invoice app simplifies the often tedious task of generating invoices for products or services you provide. It's a valuable tool for businesses and freelancers, helping them maintain a professional image while efficiently managing their financial transactions. Here are some key features and functionalities of this Invoice App:
 
 - **Invoice Creation**: You can easily create and customize invoices with details such as your business information, customer details, invoice items, and payment terms.
