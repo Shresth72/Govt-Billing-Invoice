@@ -10,9 +10,14 @@ Welcome to the Invoice App repository!
 - Indrani Dutta
 - Yash Arya
 
+## Video Links of our submissions
+### SIH Project Id: 1344
+#### Link: https://docs.google.com/presentation/d/1D5xysT-OU6X3faNdOQWFPwg_kD7yw4ZrjJPNRtctB_M/edit?usp=drivesdk
+
+### Video Presentation of this prototype
+#### Link: https://drive.google.com/file/d/1Du29KBUjt77_HPsZ8gx7kirqAC4cpdyy/view?usp=drivesdk
+
 This mobile application prototype is built using React Native and Expo Go, designed to streamline the process of creating, managing, and sharing invoices for your business or personal use.
-
-
 
 ## What is an Invoice App?
 
