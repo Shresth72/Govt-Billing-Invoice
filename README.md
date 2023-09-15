@@ -15,6 +15,7 @@ This mobile application prototype is built using React Native and Expo Go, desig
 
 ## Video Links of our submissions
 ### SIH Project Id: 1344
+### PPT: https://drive.google.com/file/d/1GLP09W_zQjtMywDLts7eaUa3IP0DopXu/view?usp=sharing
 #### Link: https://docs.google.com/presentation/d/1D5xysT-OU6X3faNdOQWFPwg_kD7yw4ZrjJPNRtctB_M/edit?usp=drivesdk
 ### Expo details: 
 - Build id: 432e361e-a02d-42cc-882c-b3f99e0c6609
