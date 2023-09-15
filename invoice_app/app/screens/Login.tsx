@@ -6,6 +6,7 @@ import {
   ActivityIndicator,
   Button,
   KeyboardAvoidingView,
+  TouchableOpacity,
 } from "react-native";
 import React, { useState } from "react";
 import { FIREBASE_AUTH } from "../../Firebase.config";
@@ -13,6 +14,7 @@ import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
 } from "firebase/auth";
+import { LinearGradient } from "expo-linear-gradient";
 
 const Login = () => {
   const [email, setEmail] = useState<string>("");
@@ -55,29 +57,66 @@ const Login = () => {
   return (
     <View style={styles.container}>
       <KeyboardAvoidingView behavior="padding">
-        <TextInput
-          style={styles.input}
-          value={email}
-          placeholder="Email"
-          autoCapitalize="none"
-          onChange={(event) => setEmail(event.nativeEvent.text)}
-        ></TextInput>
-        <TextInput
-          style={styles.input}
-          value={password}
-          secureTextEntry={true}
-          placeholder="password"
-          autoCapitalize="none"
-          onChange={(event) => setPassword(event.nativeEvent.text)}
-        ></TextInput>
+        <Text style={styles.heading}>Welcome Back!</Text>
+        <Text style={styles.details}>Enter your details:</Text>
+        <View style={styles.inputView}>
+          <TextInput
+            style={styles.input}
+            value={email}
+            placeholder="Email"
+            autoCapitalize="none"
+            onChange={(event) => setEmail(event.nativeEvent.text)}
+          ></TextInput>
+          <LinearGradient
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 0 }}
+            colors={["#6a61cd", "#68cafe"]}
+            style={styles.gradientBorder}
+          />
+        </View>
+
+        <View style={styles.inputView}>
+          <TextInput
+            style={styles.input}
+            value={password}
+            secureTextEntry={true}
+            placeholder="Password"
+            autoCapitalize="none"
+            onChange={(event) => setPassword(event.nativeEvent.text)}
+          ></TextInput>
+          <LinearGradient
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 0 }}
+            colors={["#6a61cd", "#68cafe"]}
+            style={styles.gradientBorder}
+          />
+        </View>
 
         {loading ? (
           <ActivityIndicator size="large" color="#0000ff" />
         ) : (
-          <>
-            <Button title="Login" onPress={signIn} />
-            <Button title="SignUp" onPress={signUp} />
-          </>
+          <View style={styles.fragment}>
+            <TouchableOpacity onPress={signIn} style={styles.button}>
+              <LinearGradient
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 0 }}
+                colors={["#6a61cd", "#68cafe"]} // Define your gradient colors
+                style={styles.gradient}
+              >
+                <Text style={styles.text}>LOGIN</Text>
+              </LinearGradient>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={signUp} style={styles.button}>
+              <LinearGradient
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 0 }}
+                colors={["#6a61cd", "#68cafe"]} // Define your gradient colors
+                style={styles.gradient}
+              >
+                <Text style={styles.text}>SIGNUP</Text>
+              </LinearGradient>
+            </TouchableOpacity>
+          </View>
         )}
       </KeyboardAvoidingView>
     </View>
@@ -93,11 +132,47 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   input: {
-    marginVertical: 4,
     height: 50,
-    borderWidth: 1,
-    borderRadius: 4,
     padding: 10,
-    backgroundColor: "#fff",
+    paddingLeft: 0,
+    backgroundColor: "transparent",
+    borderWidth: 0,
+    borderBottomWidth: 2,
+    borderColor: "transparent",
+    marginBottom: 20,
   },
+  gradientBorder: {
+    position: "absolute",
+    right: 0,
+    bottom: 20,
+    left: 0,
+    height: 2,
+  },
+  heading: {
+    fontSize: 30,
+    fontWeight: "700",
+  },
+  details: {
+    opacity: 0.3,
+    marginBottom: 40,
+  },
+  inputView: {
+    position: "relative",
+  },
+  inputText: {
+    opacity: 0.3,
+  },
+  button: {
+    marginTop: 4
+  },
+  gradient: {
+    padding: 10,
+    borderRadius: 3,
+  },
+  text: {
+    color: "white",
+    width: "100%",
+    textAlign: "center"
+  },
+  
 });
