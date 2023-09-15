@@ -11,6 +11,7 @@ import { User, onAuthStateChanged } from "firebase/auth";
 import { FIREBASE_AUTH } from "./Firebase.config";
 import Details from "./app/screens/Details";
 import Home from "./app/screens/Home";
+import CreateBill from "./app/screens/CreateBill";
 
 const Stack = createNativeStackNavigator();
 const InsideStack = createNativeStackNavigator();
@@ -18,9 +19,12 @@ const InsideStack = createNativeStackNavigator();
 function InsideLayout() {
   return (
     <InsideStack.Navigator>
-      <InsideStack.Screen name="home" component={Home} />
-      <InsideStack.Screen name="lists" component={List} />
-      <InsideStack.Screen name="details" component={Details} />
+      <Stack.Screen
+        name="Home"
+        component={Home}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen name="CreateBill" component={CreateBill} />
     </InsideStack.Navigator>
   );
 }
