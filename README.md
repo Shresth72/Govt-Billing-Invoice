@@ -2,7 +2,7 @@
 
 Welcome to the Invoice App repository!
 #### We are team BACKDOOR INOVATORS for Smart India Hackathon
-### Members:
+### Team Members:
 - Ashwary Tripathi (Leader)
 - Shrestha Shashank
 - Ahbar Husain
