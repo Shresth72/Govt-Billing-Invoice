@@ -4,7 +4,7 @@ This mobile application prototype is built using React Native and Expo Go, desig
 
 ##
 
-#### We are team BACKDOOR INOVATORS for Smart India Hackathon
+#### We are team BACKDOOR INNOVATORS for Smart India Hackathon
 ### Team Members:
 - Ashwary Tripathi (Leader)
 - Shrestha Shashank
