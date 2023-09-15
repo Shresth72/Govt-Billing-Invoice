@@ -1,6 +1,9 @@
 # Invoice App with React Native and Expo Go
-
 Welcome to the Invoice App repository!
+This mobile application prototype is built using React Native and Expo Go, designed to streamline the process of creating, managing, and sharing invoices for your business or personal use.
+
+##
+
 #### We are team BACKDOOR INOVATORS for Smart India Hackathon
 ### Team Members:
 - Ashwary Tripathi (Leader)
@@ -16,8 +19,6 @@ Welcome to the Invoice App repository!
 
 ### Video Presentation of this prototype
 #### Link: https://drive.google.com/file/d/1Du29KBUjt77_HPsZ8gx7kirqAC4cpdyy/view?usp=drivesdk
-
-This mobile application prototype is built using React Native and Expo Go, designed to streamline the process of creating, managing, and sharing invoices for your business or personal use.
 
 ## What is an Invoice App?
 
