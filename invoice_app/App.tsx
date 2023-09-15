@@ -12,9 +12,12 @@ import { FIREBASE_AUTH } from "./Firebase.config";
 import Details from "./app/screens/Details";
 import Home from "./app/screens/Home";
 import CreateBill from "./app/screens/CreateBill";
-
 const Stack = createNativeStackNavigator();
 const InsideStack = createNativeStackNavigator();
+
+let customFonts = {
+  "Poppins": require("./assets/fonts/Poppins-Light.ttf"),
+};
 
 function InsideLayout() {
   return (
@@ -31,7 +34,6 @@ function InsideLayout() {
 
 export default function App() {
   const [user, setUser] = useState<User | null>(null);
-
   useEffect(() => {
     onAuthStateChanged(FIREBASE_AUTH, (user) => {
       // console.log("user", user);

@@ -95,7 +95,7 @@ const Login = () => {
         {loading ? (
           <ActivityIndicator size="large" color="#0000ff" />
         ) : (
-          <View style={styles.fragment}>
+          <View>
             <TouchableOpacity onPress={signIn} style={styles.button}>
               <LinearGradient
                 start={{ x: 0, y: 0 }}
@@ -151,7 +151,9 @@ const styles = StyleSheet.create({
   heading: {
     fontSize: 30,
     fontWeight: "700",
+    fontFamily: "Poppins",
   },
+
   details: {
     opacity: 0.3,
     marginBottom: 40,
@@ -163,7 +165,7 @@ const styles = StyleSheet.create({
     opacity: 0.3,
   },
   button: {
-    marginTop: 4
+    marginTop: 4,
   },
   gradient: {
     padding: 10,
@@ -172,7 +174,6 @@ const styles = StyleSheet.create({
   text: {
     color: "white",
     width: "100%",
-    textAlign: "center"
+    textAlign: "center",
   },
-  
 });
