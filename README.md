@@ -1,4 +1,3 @@
-# Govt-Billing-Invoice
 # Invoice App with React Native and Expo Go
 
 Welcome to the Invoice App repository! This mobile application is built using React Native and Expo Go, designed to streamline the process of creating, managing, and sharing invoices for your business or personal use. 
