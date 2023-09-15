@@ -3,7 +3,7 @@ import React from "react";
 import { FIREBASE_AUTH } from "../../Firebase.config";
 import { NavigationProp } from "@react-navigation/native";
 
-interface RouterProps {
+export interface RouterProps {
   navigation: NavigationProp<any, any>;
 }
 
