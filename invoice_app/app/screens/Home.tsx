@@ -8,13 +8,13 @@ export default function Home({ navigation }: RouterProps) {
     <View style={styles.container}>
       <LinearGradient
         start={{ x: 0, y: 0 }}
-        end={{ x: 1, y: 0 }}
-        colors={["#6a61cd", "#68cafe"]} // Define your gradient colors
+        end={{ x: 1, y: 1 }}
+        colors={[ "#68cafe", "#6a61cd"]} // Define your gradient colors
         style={styles.gradient}
       >
         <Text style={styles.welcome}>Welcome</Text>
         <Text style={styles.para}>
-          The simplest online invoicing app with downloadable invoices as pdf!
+          The simplest online invoicing app for freelancers.
         </Text>
         <TouchableOpacity
           style={styles.button}
@@ -47,11 +47,11 @@ const styles = StyleSheet.create({
     position: "relative",
     width: "100%",
     height: "100%",
-},
-para: {
+  },
+  para: {
     textAlign: "center",
-    fontSize: 25,
-    maxWidth: "99%",
+    fontSize: 30,
+    maxWidth: "82%",
     marginTop: 100,
     color: "white",
   },
