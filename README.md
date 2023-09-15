@@ -16,6 +16,10 @@ This mobile application prototype is built using React Native and Expo Go, desig
 ## Video Links of our submissions
 ### SIH Project Id: 1344
 #### Link: https://docs.google.com/presentation/d/1D5xysT-OU6X3faNdOQWFPwg_kD7yw4ZrjJPNRtctB_M/edit?usp=drivesdk
+### Expo details: 
+- Build id: 432e361e-a02d-42cc-882c-b3f99e0c6609
+- Project id: 786a5329-4d39-44b5-b6c6-a18ba07c1d93
+- Name: @shresth72/invoice_app
 
 ### Video Presentation of this prototype
 #### Link: https://drive.google.com/file/d/1Du29KBUjt77_HPsZ8gx7kirqAC4cpdyy/view?usp=drivesdk
